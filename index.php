@@ -1,8 +1,6 @@
 
  <?php include 'Class/Template.php' ?> <!-- // call file -->
 <?php $template =  new Template(); ?><!--  // init the class -->
-
-
  <?php $template->header(); ?> <!--// get the method of the class -->
 
 
@@ -89,22 +87,45 @@
           </div>
         </div>
     <?php  $template->navbar(); ?>
-        <div class="my-3 my-md-5">
+
+    <?php  if ($_GET['page'] == 'list-students') { ?>
+
+      <div class="my-3 my-md-5">
           <div class="container">
             <div class="page-header">
               <h1 class="page-title">
                 List of Students
               </h1>
             </div>
-          
-           
-           
-          </div>
+            </div>
         </div>
       </div>
-      <div class="footer">
-       
       </div>
+
+    <?php } else { ?>
+
+      <div class="my-3 my-md-5">
+          <div class="container">
+            <div class="page-header">
+              <h1 class="page-title">
+                Add New Student
+              </h1>
+            </div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+
+   <?php } ?>
+
+   
+
+      
+
+  
+        
+      
      <?php $template->footer(); ?>
     </div>
   </body>

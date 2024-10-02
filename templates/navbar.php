@@ -5,10 +5,10 @@
               <div class="col-lg order-lg-first">
                 <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
                   <li class="nav-item">
-                    <a href="./index.html" class="nav-link active"><i class="fe fe-home"></i> List of Students</a>
+                    <a href="?page=list-students" class="nav-link active"><i class="fe fe-home"></i> List of Students</a>
                   </li>
                   <li class="nav-item">
-                    <a href="./index.html" class="nav-link active"><i class="fe fe-user"></i>Add New Student</a>
+                    <a href="?page=add-student" class="nav-link active"><i class="fe fe-user"></i>Add New Student</a>
                   </li>
               
                   
